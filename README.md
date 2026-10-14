@@ -51,7 +51,7 @@ A full-stack application designed to manage academic tasks and generate smarter 
 
 A coaching-center learning platform with student authentication, course access, lectures, resources, mock tests and protected admin management.
 
-🌐 **Live:** https://www.civinityhub.in
+🌐 **Live:** https://www.civinityhubs.in
 
 `React` `TypeScript` `Supabase` `PostgreSQL` `Netlify`
 
