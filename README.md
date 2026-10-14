@@ -49,25 +49,19 @@ A full-stack application designed to manage academic tasks and generate smarter 
 
 ### 🎓 Civinity Hub
 
-**Coaching-center learning platform**
+A coaching-center learning platform with student authentication, course access, lectures, resources, mock tests and protected admin management.
 
-A full-stack education platform with student authentication, course access, lectures, resources, mock tests and an admin management system.
-
-Built using **React + TypeScript + Supabase**, with private course resources and role-based student/admin access.
-
-🌐 **Live:** https://civinityhub.netlify.app
+🌐 **Live:** https://www.civinityhub.in
 
 `React` `TypeScript` `Supabase` `PostgreSQL` `Netlify`
 
----
-
 ### 🏗️ Satya Construction
 
-**Business website developed for a construction client**
+A responsive business website developed for a construction client, focused on services, projects, brand presentation and lead generation.
 
-Designed and developed a modern responsive company website focused on services, projects, brand presentation and lead generation.
+🌐 **Live:** https://satya-construction.netlify.app
 
-`Web Development` `Responsive UI` `Client Project`
+`Responsive Web Design` `Frontend Development` `Client Project`
 
 ---
 
