@@ -1,13 +1,14 @@
-<h1 align="center">Hi 👋, I'm Kiranmoy Handique</h1>
-
-<h3 align="center">MCA Student • Full-Stack Developer • AI & IoT Builder</h3>
+<h1 align="center">Hi, I'm Kiranmoy Handique 👋</h1>
 
 <p align="center">
-  I like building practical software that combines <b>web development</b>, <b>AI</b>, and <b>hardware</b>.
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2800&pause=900&center=true&vCenter=true&width=650&lines=Full-Stack+Developer;Building+AI-Powered+Applications;Exploring+AI+%2B+IoT;Turning+Ideas+Into+Real+Products" alt="Typing SVG" />
+  </a>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Kiranmoy03&label=Profile%20views&style=flat" alt="Profile views" />
+  MCA student building practical products across
+  <b>full-stack development, applied AI, and IoT.</b>
 </p>
 
 ---
@@ -15,78 +16,98 @@
 ## 👨‍💻 About Me
 
 - 🎓 Currently pursuing **MCA**
-- 💻 Focused on **Full-Stack Web Development**
-- 🤖 Learning and building with **AI, Machine Learning & Data Science**
-- 🔌 Exploring **IoT and ESP32-based projects**
-- 🧠 I prefer learning by building real-world projects and understanding how each part works
-- 🚀 Currently strengthening my portfolio for software-development opportunities
+- 💻 Building full-stack applications using **React, TypeScript, Python, FastAPI, Supabase & PostgreSQL**
+- 🤖 Exploring **AI/ML, computer vision and intelligent applications**
+- 🔌 Building hardware + software prototypes using **ESP32**
+- 🚀 Interested in **software development and AI internship opportunities**
 
 ---
 
-## 🚀 What I'm Building
+# 🚀 Featured Projects
 
-### 👓 SeeAssist
-An **AI-powered smart-glasses prototype** built around the ESP32-CAM.
+### 👓 [SeeAssist](https://github.com/Kiranmoy03/SeeAssist)
 
-The project explores:
-- Visual Question Answering (VQA)
-- OCR and object understanding
-- Voice-based interaction
-- ESP32-CAM image capture
-- Smartphone + AI backend integration
+**AI-powered visual assistance prototype**
 
-### 🤖 AI Student Task Manager
-A project focused on combining productivity tools with AI to help students organize and manage their work more intelligently.
+SeeAssist combines an **ESP32-CAM, Android application and AI models** to explore visual question answering, OCR, object understanding and voice-based interaction.
 
-### 📄 AI Resume Analyzer
-An AI-based project for analyzing resumes and helping users better understand their profile and job-readiness.
-
-### 💊 CuraMed
-My BCA final-year project, designed to make access to medicines simpler and more convenient for patients.
+`ESP32-CAM` `Android` `Kotlin` `Computer Vision` `AI` `Python`
 
 ---
 
-## 🛠️ Tech Stack
+### 🤖 [AI Student Task Manager](https://github.com/Kiranmoy03/ai-student-task-manager)
 
-<p>
-  <img src="https://skillicons.dev/icons?i=html,css,js,react,python,java,postgres,supabase,git,github,vscode" alt="Tech stack" />
-</p>
+**AI-powered productivity platform for students**
 
-### Also working with
+A full-stack application designed to manage academic tasks and generate smarter study plans using AI.
 
-<p>
-  <img src="https://img.shields.io/badge/ESP32-000000?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32" />
-  <img src="https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white" alt="Google Colab" />
-  <img src="https://img.shields.io/badge/AI%20%26%20ML-232F3E?style=for-the-badge" alt="AI and ML" />
-</p>
+`React` `TypeScript` `Python` `FastAPI` `Supabase` `Gemini`
 
 ---
 
-## 🌱 Currently Learning
+# 💼 Selected Client & Real-World Work
 
-- Data Science & Machine Learning
-- Building AI-powered applications
-- Backend development and databases
-- Better software architecture
-- Practical IoT development
+### 🎓 Civinity Hub
+
+**Coaching-center learning platform**
+
+A full-stack education platform with student authentication, course access, lectures, resources, mock tests and an admin management system.
+
+Built using **React + TypeScript + Supabase**, with private course resources and role-based student/admin access.
+
+🌐 **Live:** https://civinityhub.netlify.app
+
+`React` `TypeScript` `Supabase` `PostgreSQL` `Netlify`
 
 ---
 
-## 📊 GitHub Activity
+### 🏗️ Satya Construction
+
+**Business website developed for a construction client**
+
+Designed and developed a modern responsive company website focused on services, projects, brand presentation and lead generation.
+
+`Web Development` `Responsive UI` `Client Project`
+
+---
+
+# 🧩 Other Projects
+
+### 🔌 [NodeMCU Wiring Guide](https://github.com/Kiranmoy03/nodemcu-wiring-guide)
+
+An interactive beginner-friendly visual wiring guide for an ESP8266 NodeMCU, potentiometer and LED circuit.
+
+`HTML` `CSS` `JavaScript` `ESP8266`
+
+---
+
+# 🛠️ Tech Stack
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Kiranmoy03&show_icons=true&theme=github_dark&hide_border=true" alt="Kiranmoy's GitHub stats" />
+
+<img src="https://skillicons.dev/icons?i=react,ts,js,python,fastapi,java,postgres,supabase,git,github,vscode" />
+
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Kiranmoy03&theme=github-dark-blue&hide_border=true" alt="GitHub streak" />
+
+<img src="https://img.shields.io/badge/ESP32-000000?style=flat-square&logo=espressif&logoColor=white" />
+<img src="https://img.shields.io/badge/AI%20%26%20ML-232F3E?style=flat-square" />
+<img src="https://img.shields.io/badge/Computer%20Vision-5C3EE8?style=flat-square" />
+
 </p>
 
 ---
 
-## 🎯 My Goal
+# 🌱 Currently Focused On
 
-To keep building useful, real-world projects while becoming stronger in **software development, AI, and problem solving**.
+- Improving and testing **SeeAssist**
+- Strengthening my **AI/ML fundamentals**
+- Building production-style **full-stack applications**
+- Learning better backend architecture and system design
+- Preparing for **software development & AI opportunities**
+
+---
 
 <p align="center">
   <b>Build • Learn • Improve • Repeat</b>
