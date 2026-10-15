@@ -1,57 +1,132 @@
 <h1 align="center">Hi, I'm Kiranmoi Handique 👋</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&duration=2800&pause=1000&center=true&vCenter=true&width=680&lines=Full-Stack+Web+Developer;Python+%26+Applied+Machine+Learning;Building+Practical+Software+%26+AI+Projects" alt="Full-stack development, Python and applied machine learning" />
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2800&pause=900&center=true&vCenter=true&width=650&lines=Full-Stack+Developer;Building+AI-Powered+Applications;Exploring+AI+%2B+IoT;Turning+Ideas+Into+Real+Products" alt="Typing SVG" />
+  </a>
 </p>
 
 <p align="center">
-  MCA student and developer working across <b>full-stack web development, backend engineering, and applied AI/ML</b>.<br />
-  I enjoy turning ideas into useful applications, from client websites to machine-learning and hardware prototypes.
+  MCA student building practical products across
+  <b>full-stack development, applied AI, and IoT.</b>
+</p>
+
+---
+
+## 👨‍💻 About Me
+
+- 🎓 Currently pursuing **MCA**
+- 💻 Building full-stack applications using **React, TypeScript, Python, FastAPI, Supabase & PostgreSQL**
+- 🤖 Exploring **AI/ML, computer vision and intelligent applications**
+- 🔌 Building hardware + software prototypes using **ESP32**
+- 🚀 Interested in **software development and AI internship opportunities**
+
+---
+
+# 🚀 Featured Projects
+
+### 🧠 [SupportIQ](https://github.com/Kiranmoy03/supportiq)
+
+**Support ticket intent classification — Completed**
+
+An NLP application using **TF-IDF and Logistic Regression** to classify customer support requests into six intents. Includes a Streamlit interface with predictions, model insights and reply templates. Achieved **83.3% accuracy** on a small held-out **synthetic** test set.
+
+🌐 **[Live demo](https://supportiq-ml.streamlit.app/)**
+
+`Python` `scikit-learn` `NLP` `Streamlit`
+
+---
+
+### 📊 [OpsPulse](https://github.com/Kiranmoy03/opspulse)
+
+**Infrastructure anomaly detection — In Progress**
+
+An early-stage ML project exploring anomaly detection in historical server metrics. Planned work includes **time-series features, Isolation Forest, model evaluation and a Streamlit dashboard**. Development and testing are still in progress.
+
+`Python` `pandas` `scikit-learn` `Isolation Forest` `Streamlit (planned)`
+
+---
+
+### 👓 [SeeAssist](https://github.com/Kiranmoy03/SeeAssist)
+
+**AI-powered visual assistance prototype — In Progress**
+
+SeeAssist combines an **ESP32-CAM, Android application and AI models** to explore visual question answering, OCR, object understanding and voice-based interaction.
+
+`ESP32-CAM` `Android` `Kotlin` `Computer Vision` `AI` `Python`
+
+---
+
+### 🤖 [AI Student Task Manager](https://github.com/Kiranmoy03/ai-student-task-manager)
+
+**AI-powered productivity platform for students**
+
+A full-stack application designed to manage academic tasks and generate smarter study plans using AI.
+
+`React` `TypeScript` `Python` `FastAPI` `Supabase` `Gemini`
+
+---
+
+# 💼 Selected Client & Real-World Work
+
+### 🎓 Civinity Hubs
+
+A completed coaching-center learning platform with student authentication, course access, lectures, resources, mock tests and protected admin management.
+
+🌐 **Live:** https://civinityhub.netlify.app/
+
+`React` `TypeScript` `Supabase` `PostgreSQL` `Netlify`
+
+### 🏗️ Satya Construction
+
+A responsive business website developed for a construction client, focused on services, projects, brand presentation and lead generation.
+
+🌐 **Live:** https://satya-construction.netlify.app
+
+`Responsive Web Design` `Frontend Development` `Client Project`
+
+---
+
+# 🧩 Other Projects
+
+### 🔌 [NodeMCU Wiring Guide](https://github.com/Kiranmoy03/nodemcu-wiring-guide)
+
+An interactive beginner-friendly visual wiring guide for an ESP8266 NodeMCU, potentiometer and LED circuit.
+
+`HTML` `CSS` `JavaScript` `ESP8266`
+
+---
+
+# 🛠️ Tech Stack
+
+<p align="center">
+
+<img src="https://skillicons.dev/icons?i=react,ts,js,python,fastapi,java,postgres,supabase,git,github,vscode" />
+
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/kiranmoi-handique">LinkedIn</a>
-  &nbsp;·&nbsp;
-  <a href="mailto:hkiranmoy@gmail.com">Email</a>
+
+<img src="https://img.shields.io/badge/ESP32-000000?style=flat-square&logo=espressif&logoColor=white" />
+<img src="https://img.shields.io/badge/AI%20%26%20ML-232F3E?style=flat-square" />
+<img src="https://img.shields.io/badge/Computer%20Vision-5C3EE8?style=flat-square" />
+
 </p>
 
-About me
-- 🎓 Pursuing a Master of Computer Applications (MCA) at Assam Engineering College.
-- 💻 Building with React, TypeScript, Python, FastAPI, PostgreSQL, and Supabase.
-- 🤖 Learning through hands-on projects in machine learning, NLP, computer vision, and IoT.
-- 🔍 Interested in software engineering, backend systems, infrastructure, and applied AI.
-Featured projects
-SupportIQ — Support Ticket Intent Classifier · Completed
-An NLP application that classifies support requests into six intents using TF-IDF and Logistic Regression. Includes a Streamlit interface, model insights, and rule-based reply suggestions. Achieved 83.3% accuracy on a held-out set of 54 synthetic examples.
-Live demo · Source code
-Python scikit-learn NLP Streamlit
-OpsPulse — Infrastructure Anomaly Detection · In progress
-An early-stage machine-learning project focused on detecting unusual patterns in historical server metrics. The planned implementation covers time-series feature engineering, Isolation Forest, anomaly evaluation, and a Streamlit dashboard. Model development and validation are still ahead.
-Python pandas scikit-learn Time Series Streamlit (planned)
-SeeAssist — AI Visual Assistance Prototype · In progress
-An ESP32-CAM + Android visual-assistance prototype combining image capture, visual question answering, OCR, object detection, and spoken responses. Initial camera-to-phone and AI-response workflows have been tested; hands-free interaction and full wearable validation remain in progress.
-ESP32-CAM Android Kotlin Python Computer Vision
-AI Student Task Manager
-A full-stack productivity app for organizing assignments and deadlines, with Supabase authentication, a FastAPI backend, and Gemini-assisted study-plan generation. The frontend is deployed; live end-to-end backend integration is still being validated.
-Frontend · Source code
-React TypeScript FastAPI Supabase Gemini API
-Client projects
-Civinity Hubs — Coaching Platform · Completed
-Built a coaching platform with student/admin workflows, course enrollment, recorded lectures, downloadable resources, and practice-test interfaces.
-View website
-React TypeScript Tailwind CSS Supabase Netlify
-Satya Construction — Business Website
-Developed a responsive website for a construction client, presenting services, projects, and company information.
-View website
-Frontend Development Responsive Design Client Work
-Other work
-- NodeMCU Wiring Guide — Interactive wiring guide for an ESP8266 NodeMCU, potentiometer, and LED circuit. Live guide.
-Tech stack
-<p>
-  <img src="https://skillicons.dev/icons?i=python,java,js,ts,react,fastapi,postgres,supabase,git,github,vscode" alt="Python, Java, JavaScript, TypeScript, React, FastAPI, PostgreSQL, Supabase, Git, GitHub, and VS Code" />
+---
+
+# 🌱 Currently Focused On
+
+- Building and evaluating **OpsPulse**
+- Improving and testing **SeeAssist**
+- Strengthening my **AI/ML fundamentals**
+- Building production-style **full-stack applications**
+- Learning better backend architecture and system design
+- Preparing for **software development & AI opportunities**
+
+---
+
+<p align="center">
+  <b>Build • Learn • Improve • Repeat</b>
 </p>
 
-Currently working on
-- Building and evaluating OpsPulse with time-series anomaly detection.
-- Improving SeeAssist hands-free interaction and hardware integration.
-- Strengthening backend engineering, ML fundamentals, and software testing.
