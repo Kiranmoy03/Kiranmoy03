@@ -1,78 +1,131 @@
-# OpsPulse
+<h1 align="center">Hi, I'm Kiranmoi Handique 👋</h1>
 
-Infrastructure time-series anomaly detection with Python, scikit-learn, and Streamlit.
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2800&pause=900&center=true&vCenter=true&width=650&lines=Full-Stack+Developer;Building+AI-Powered+Applications;Exploring+AI+%2B+IoT;Turning+Ideas+Into+Real+Products" alt="Typing SVG" />
+  </a>
+</p>
 
-OpsPulse trains an **Isolation Forest** on an initial chronological segment of a metric series, scores later observations, and visualizes unusual readings. It includes a rolling z-score comparison and optional evaluation against labeled anomaly windows from the [Numenta Anomaly Benchmark (NAB)](https://github.com/numenta/NAB).
+<p align="center">
+  MCA student building practical products across
+  <b>full-stack development, applied AI, and IoT.</b>
+</p>
 
-## Features
+---
 
-- Analyze historical AWS CloudWatch metric series from NAB or upload a CSV with `timestamp` and `value` columns.
-- Engineer rolling statistics and rate-of-change features using current and earlier observations only.
-- Train an unsupervised Isolation Forest and evaluate on a later chronological segment.
-- Compare alerts with a rolling z-score baseline.
-- Explore flagged readings on an interactive timeline and export evaluation alerts as CSV.
-- Try the interface without a download using a reproducible **synthetic demo**.
+## 👨‍💻 About Me
 
-## Tech stack
+- 🎓 Currently pursuing **MCA**
+- 💻 Building full-stack applications using **React, TypeScript, Python, FastAPI, Supabase & PostgreSQL**
+- 🤖 Exploring **AI/ML, computer vision and intelligent applications**
+- 🔌 Building hardware + software prototypes using **ESP32**
+- 🚀 Interested in **software development and AI internship opportunities**
 
-`Python` · `pandas` · `scikit-learn` · `Streamlit` · `Plotly` · `pytest`
+---
 
-## Run locally
+# 🚀 Featured Projects
 
-Python 3.11+ is recommended.
+### 🧠 [SupportIQ](https://github.com/Kiranmoy03/supportiq)
 
-```bash
-git clone https://github.com/Kiranmoy03/opspulse.git
-cd opspulse
-python -m venv .venv
-```
+**Support ticket intent classification — Completed**
 
-Activate the virtual environment:
+An NLP application using **TF-IDF and Logistic Regression** to classify customer support requests into six intents. Includes a Streamlit interface with predictions, model insights and reply templates. Achieved **83.3% accuracy** on a small held-out **synthetic** test set.
 
-- Windows PowerShell: `.venv\Scripts\Activate.ps1`
-- macOS/Linux: `source .venv/bin/activate`
+🌐 **[Live demo](https://supportiq-ml.streamlit.app/)**
 
-```bash
-python -m pip install -r requirements.txt
-streamlit run app.py
-```
+`Python` `scikit-learn` `NLP` `Streamlit`
 
-The default dataset is synthetic and available offline. Real NAB series are fetched from GitHub when selected, so those options require internet access.
+---
 
-## Evaluate a NAB series
+### 📊 [OpsPulse](https://github.com/Kiranmoy03/opspulse)
 
-```bash
-python -m scripts.evaluate_nab
-```
+**Infrastructure anomaly detection — In Progress**
 
-Use `python -m scripts.evaluate_nab --help` to see the available dataset paths and model settings.
+An early-stage ML project exploring anomaly detection in historical server metrics. Planned work includes **time-series features, Isolation Forest, model evaluation and a Streamlit dashboard**. Development and testing are still in progress.
 
-The dashboard reports **point-level precision, recall, F1, and anomaly-window hit counts** for the evaluation portion of the series. These are descriptive measures, **not the official NAB benchmark score**. The labels cover broad time windows, so point-level scores can be misleading for early detection. No claim of production accuracy or generalization is made.
+`Python` `pandas` `scikit-learn` `Isolation Forest` `Streamlit (planned)`
 
-## Test
+---
 
-```bash
-python -m pip install -r requirements-dev.txt
-python -m pytest -q
-```
+### 👓 [SeeAssist](https://github.com/Kiranmoy03/SeeAssist)
 
-Tests check data cleaning, chronological splitting, deterministic scoring, feature leakage, and evaluation metrics.
+**AI-powered visual assistance prototype — In Progress**
 
-## Structure
+SeeAssist combines an **ESP32-CAM, Android application and AI models** to explore visual question answering, OCR, object understanding and voice-based interaction.
 
-```text
-app.py                    Streamlit interface
-opspulse/
-  data.py                 CSV input and NAB loading
-  demo.py                 Reproducible synthetic sample
-  model.py                Time-series features and Isolation Forest
-  metrics.py              Evaluation metrics
-scripts/evaluate_nab.py   Command-line NAB evaluation
-tests/test_pipeline.py    Automated tests
-```
+`ESP32-CAM` `Android` `Kotlin` `Computer Vision` `AI` `Python`
 
-## Data source and limitations
+---
 
-Real metric data and anomaly windows are provided by [Numenta/NAB](https://github.com/numenta/NAB), specifically the `data/realAWSCloudwatch` series and `labels/combined_windows.json`. See the upstream repository for dataset terms and attribution. The example dataset generated in `opspulse/demo.py` is **synthetic** and is not representative of real server performance.
+### 🤖 [AI Student Task Manager](https://github.com/Kiranmoy03/ai-student-task-manager)
 
-OpsPulse currently analyzes **one historical metric at a time**. Its rolling features use observations available up to each timestamp, but model fitting is offline. It does not connect to infrastructure monitoring systems, send live alerts, or replace an operational monitoring solution. The initial training portion is not guaranteed anomaly-free, and outcomes depend on the chosen time series and contamination setting.
+**AI-powered productivity platform for students**
+
+A full-stack application designed to manage academic tasks and generate smarter study plans using AI.
+
+`React` `TypeScript` `Python` `FastAPI` `Supabase` `Gemini`
+
+---
+
+# 💼 Selected Client & Real-World Work
+
+### 🎓 Civinity Hubs
+
+A completed coaching-center learning platform with student authentication, course access, lectures, resources, mock tests and protected admin management.
+
+🌐 **Live:** (https://www.civinityhubs.in/)
+
+`React` `TypeScript` `Supabase` `PostgreSQL` `Netlify`
+
+### 🏗️ Satya Construction
+
+A responsive business website developed for a construction client, focused on services, projects, brand presentation and lead generation.
+
+🌐 **Live:** https://satya-construction.netlify.app
+
+`Responsive Web Design` `Frontend Development` `Client Project`
+
+---
+
+# 🧩 Other Projects
+
+### 🔌 [NodeMCU Wiring Guide](https://github.com/Kiranmoy03/nodemcu-wiring-guide)
+
+An interactive beginner-friendly visual wiring guide for an ESP8266 NodeMCU, potentiometer and LED circuit.
+
+`HTML` `CSS` `JavaScript` `ESP8266`
+
+---
+
+# 🛠️ Tech Stack
+
+<p align="center">
+
+<img src="https://skillicons.dev/icons?i=react,ts,js,python,fastapi,java,postgres,supabase,git,github,vscode" />
+
+</p>
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/ESP32-000000?style=flat-square&logo=espressif&logoColor=white" />
+<img src="https://img.shields.io/badge/AI%20%26%20ML-232F3E?style=flat-square" />
+<img src="https://img.shields.io/badge/Computer%20Vision-5C3EE8?style=flat-square" />
+
+</p>
+
+---
+
+# 🌱 Currently Focused On
+
+- Building and evaluating **OpsPulse**
+- Improving and testing **SeeAssist**
+- Strengthening my **AI/ML fundamentals**
+- Building production-style **full-stack applications**
+- Learning better backend architecture and system design
+- Preparing for **software development & AI opportunities**
+
+---
+
+<p align="center">
+  <b>Build • Learn • Improve • Repeat</b>
+</p>
